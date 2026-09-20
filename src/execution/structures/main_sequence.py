@@ -2,8 +2,8 @@ from src.execution.node import Node
 
 
 class MainSequence:
-    def __init__(self, first_node: Node):
-        self.ex_head = first_node
+    def __init__(self, head: Node):
+        self.ex_head = head
         self.elements_before_head = 0
 
     def get_current(self) -> Node:

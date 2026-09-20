@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b94500f-dd7f-4944-911f-9c1726b41a94" name="Changes" comment="Node functions work properly">
-      <change afterPath="$PROJECT_DIR$/src/interpreter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testing/test.aqs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/execution/node.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/execution/node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/execution/node_contents/bracket.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/execution/node_contents/bracket.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/execution/node_contents/name.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/execution/node_contents/name.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/execution/node_contents/node_content.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/execution/node_contents/node_content.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/execution/node_contents/number.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/execution/node_contents/number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/execution/node_contents/operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/execution/node_contents/operation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/execution/node_contents/quoted_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/execution/node_contents/quoted_string.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/execution/structures/main_sequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/execution/structures/main_sequence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interpreter.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/interpreter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testing/parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testing/test.aqs" beforeDir="false" afterPath="$PROJECT_DIR$/src/testing/test.aqs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +44,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.bracket.executor": "Run",
     "Python.interpreter.executor": "Run",
     "Python.main_sequence.executor": "Run",
     "Python.node.executor": "Run",

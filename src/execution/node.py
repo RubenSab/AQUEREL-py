@@ -28,6 +28,7 @@ def splice_after(location: Node, start: Node, end: Node):
     location.next.prev = end
     start.prev = location
 
+
 class Node:
     def __init__(self, content: NodeContent):
         self.content = content
@@ -51,3 +52,8 @@ class Node:
             strings.append(str(node))
             node = node.next
         return " -> ".join(strings)
+
+    def execute(self) -> Node:
+        print(self) # STUB
+        next_node = self.next
+        return next_node
