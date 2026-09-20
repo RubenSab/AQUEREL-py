@@ -1,11 +1,11 @@
 from pathlib import Path
 import re
 
-from src.execution.node import Node
+from src.execution.node import Node, OPERATIONS
 from src.execution.node_contents.bracket import Bracket
 from src.execution.node_contents.name import Name
 from src.execution.node_contents.number import Number
-from src.execution.node_contents.operation import Operation, OPERATIONS
+from src.execution.node_contents.operation import Operation
 from src.execution.node_contents.quoted_string import QuotedString
 
 
@@ -63,14 +63,6 @@ class Interpreter:
         while self.head is not None:
             try:
                 self.head = self.head.execute()
-            # possible side effects:
-            #   calls self.head.jump_to(...)
-            #   manipulates the man sequence
-            #   updates counts of elements before head
-            #   manipulates the namespace
-            #   interacts with the I/O
-            #   interacts with the RNG
-            #   queries the clock
             except Exception as e:
                 print(f'Error during execution of {self.head.content.debug_str()}: {e}')
                 return False

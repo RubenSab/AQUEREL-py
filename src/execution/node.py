@@ -29,6 +29,59 @@ def splice_after(location: Node, start: Node, end: Node):
     start.prev = location
 
 
+OPERATIONS = {
+    '+': None,
+    '-': None,
+    '*': None,
+    '/': None,
+    '^': None,
+    'round': None,
+    'floor': None,
+    'ceil': None,
+    '==': None,
+    '!=': None,
+    '>': None,
+    '<': None,
+    '>=': None,
+    '<=': None,
+    'and': None,
+    'or': None,
+    'xor': None,
+    'not': None,
+    'run': None,
+    'dup': None,
+    'ldrop': None,
+    'rdrop': None,
+    'pick': None,
+    'throw': None,
+    'mainlen': None,
+    '=': None,
+    'exists': None,
+    'del': None,
+    'resolve': None,
+    'splice': None,
+    'replace': None,
+    'remove': None,
+    'get': None,
+    'getchar': None,
+    'join': None,
+    'type': None,
+    'tostr': None,
+    'tonum': None,
+    'print': None,
+    'input': None,
+    'time': None,
+    'save': None,
+    'load': None,
+    'in': None,
+    'rand': None,
+    'seed': None,
+    'MAINSEQ': None,
+    'NSPACE': None,
+    'len': None
+}
+
+
 class Node:
     def __init__(self, content: NodeContent):
         self.content = content
@@ -54,6 +107,14 @@ class Node:
         return " -> ".join(strings)
 
     def execute(self) -> Node:
+        # possible side effects:
+        #   calls self.head.jump_to(...)
+        #   manipulates the man sequence
+        #   updates counts of elements before head
+        #   manipulates the namespace
+        #   interacts with the I/O
+        #   interacts with the RNG
+        #   queries the clock
         print(self) # STUB
         next_node = self.next
         return next_node
