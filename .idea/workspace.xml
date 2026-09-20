@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0b94500f-dd7f-4944-911f-9c1726b41a94" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/AQUEREL.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/execution/node.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/execution/node_contents/bracket.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/execution/node_contents/name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/execution/node_contents/node_content.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/execution/node_contents/number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/execution/node_contents/operation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/execution/node_contents/quoted_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/execution/structures/clock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/execution/structures/console.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/execution/structures/file_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/execution/structures/main_sequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/execution/structures/namespace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/execution/structures/rng.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testing/node_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testing/parser.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="3JYaCXR5aZB3y2jyGpzuyb5tOsT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main_sequence.executor": "Run",
+    "Python.node.executor": "Run",
+    "Python.node_test.executor": "Run",
+    "Python.parser.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/execution/node_contents" />
+      <recent name="$PROJECT_DIR$/src/execution/structures" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-2653e85de345-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.31033.139" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0b94500f-dd7f-4944-911f-9c1726b41a94" name="Changes" comment="" />
+      <created>1789840329288</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1789840329288</updated>
+    </task>
+    <servers />
+  </component>
+</project>
