@@ -1,28 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b94500f-dd7f-4944-911f-9c1726b41a94" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/AQUEREL.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/execution/node.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/execution/node_contents/bracket.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/execution/node_contents/name.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/execution/node_contents/node_content.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/execution/node_contents/number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/execution/node_contents/operation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/execution/node_contents/quoted_string.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/execution/structures/clock.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/execution/structures/console.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/execution/structures/file_system.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/execution/structures/main_sequence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/execution/structures/namespace.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/execution/structures/rng.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testing/node_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testing/parser.py" afterDir="false" />
+    <list default="true" id="0b94500f-dd7f-4944-911f-9c1726b41a94" name="Changes" comment="Node functions work properly">
+      <change afterPath="$PROJECT_DIR$/src/interpreter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testing/test.aqs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/execution/node.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/execution/node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/execution/node_contents/node_content.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/execution/node_contents/node_content.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +37,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.interpreter.executor": "Run",
     "Python.main_sequence.executor": "Run",
     "Python.node.executor": "Run",
     "Python.node_test.executor": "Run",
@@ -84,6 +69,19 @@
       <option name="presentableId" value="Default" />
       <updated>1789840329288</updated>
     </task>
+    <task id="LOCAL-00001" summary="Node functions work properly">
+      <option name="closed" value="true" />
+      <created>1789896309792</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1789896309792</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Node functions work properly" />
+    <option name="LAST_COMMIT_MESSAGE" value="Node functions work properly" />
   </component>
 </project>
